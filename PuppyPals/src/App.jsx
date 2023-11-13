@@ -13,7 +13,7 @@ console.log("puppyList:", puppyList);
     return <p onClick={()=>{setFetPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>;
     })
     }
-    <p>{featPupId}</p>
+    {featPupId && <p>{featPupId}</p>}
    </>
   );
 }
