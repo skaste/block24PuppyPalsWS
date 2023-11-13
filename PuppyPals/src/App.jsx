@@ -1,8 +1,9 @@
-import { puppyList } from "./data.js"
+import { puppyList } from "./data"
+import { useState } from "react"
 
 function App() {
-  // const [count, setCount] = useState(0)
-
+console.log(puppyList)
+const [] = useState()
   return (
    <>
    <h2>Hello World!!</h2>
